@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial,  sans-serif;
+    /* criar dentro do elemento raiz*/
+    --cor-primaria: #248232;
+    --cor-secundaria: #2d3a3a;
+}
+
+body {
+    padding: 16px;
+}
+
+.btn {
+    border: 0;
+    display: block;
+    /* referencia a variavel definida na raiz*/
+    background-color: var(--cor-primaria);
+    color: white;
+    margin: 2px 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-size: 20px;
+    width: 100px;
+}
+
+.btn:hover {
+    background-color: var(--cor-secundaria);
+}
+
+hr {
+    border: 0.5px dashed var(--cor-secundaria);
+    margin: 8px 16px;
+}
+
+.tabela{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabela td,
+.tabela th {
+    border: 1px solid #000000;
+    padding: 5px;
+}
+
+.tabela th{
+    background-color: var(--cor-primaria);
+    color: white;
+}
+
+.formulario {
+    background-color: #dccece;
+    padding: 16px;
+}
+
+.formulario input,
+.formulario select{
+    width: 100%;
+    border: 2px solid #c04242;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.grupo{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

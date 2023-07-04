@@ -1,0 +1,23 @@
+.container h1{
+    text-align: center;
+
+    font-style: italic;
+
+    font-weight: 100;
+}
+
+.container h1{
+    font-size: 54px;
+}
+
+.container h2 {
+    font-size: 42px;
+}
+
+h3{
+    font-size: 32px;
+}
+
+.container p{
+    text-align: : justify;
+}
