@@ -1,0 +1,34 @@
+/*
+Media queries = regras especiais (pode ser aplicada ou não)
+
+@media condicao {
+//estilos a serem aplicados caso a condição seja verdadeira
+}
+
+*/
+
+body{
+    background-color: teal;
+    font-family: monospace;
+}
+/*proporção para celular*/
+@media screen  and(max-width: 767px) {
+    body {
+        background-color: red;  
+    }
+    
+}
+
+@media screen  and (min-width: 768px) and (max-width: 1023px){
+    body {
+        background-color: olive;  
+    }
+    
+}   
+
+@media screen  and (min-width: 1024px){
+    body {
+        background-color: olive;  
+    }
+    
+}   

@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-1{
+    background-color: brown;
+    display: flex; /* ativa o flexbox*/
+    padding: 10px;
+    /* row, column*/
+    flex-direction: row;
+    /*nowrap, wrap = indica se pode quebrar a linha se não houver espaço*/
+    flex-wrap: wrap ;
+    /*flex-flow: row wrap; atalho para flex-direction e flex-wrap*/
+    /*start, end, center, space-between, space-around, space-evenly*/
+    justify-content: center;
+}
+
+.item-1 {
+    background-color: orange;
+}
+
+.item-2 {
+    background-color: greenyellow;
+}
+
+.item-3{
+    background-color: gold;
+    align-self: flex-end;
+}
+
+.item-4{
+    background-color: hotpink;
+}
+
+.item-1,
+.item-2,
+.item-3,
+.item-4{
+    width: 200px;
+    padding: 8px;
+}
+
+
+.container-2{
+    background-color: chocolate;
+    height: 250px;
+    display: flex;
+}
+
+.coluna-1{
+    background-color: tan;
+    flex: 2;
+    
+}
+
+.coluna-2 {
+    background-color: aqua;
+    flex: 1;
+}
+
+.coluna-3{
+    background-color: tomato;
+    flex: 1;
+}
